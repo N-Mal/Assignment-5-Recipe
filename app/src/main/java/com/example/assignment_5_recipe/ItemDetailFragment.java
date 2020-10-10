@@ -63,16 +63,17 @@ public class ItemDetailFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.item_detail, container, false);
 
         if (mItem.id.equals("1")) {
-            rootView = inflater.inflate(R.layout.photos, container, false);
+            rootView = inflater.inflate(R.layout.pizza_recipe, container, false);
         }
 
         if (mItem.id.equals("2")) {
-            rootView = inflater.inflate(R.layout.recipe, container, false);
+            rootView = inflater.inflate(R.layout.choco_cake_recipe, container, false);
         }
 
         if (mItem.id.equals("3")) {
-            ((WebView)rootView.findViewById(R.id.item_detail)).loadUrl(mItem.item_URL);
+            rootView = inflater.inflate(R.layout.taco_recipe, container, false);
         }
+
 
         return rootView;
     }

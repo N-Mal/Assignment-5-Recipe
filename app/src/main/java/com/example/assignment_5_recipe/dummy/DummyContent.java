@@ -26,9 +26,9 @@ public class DummyContent {
     // private static final int COUNT = 25;
 
     static {
-        addItem(new DummyItem("1","Photos"));
-        addItem(new DummyItem("2","recipe"));
-        addItem(new DummyItem("3","Website","https://www.epicurious.com/"));
+        addItem(new DummyItem("1","Cheese Pizza"));
+        addItem(new DummyItem("2","Chocolate Cake"));
+        addItem(new DummyItem("3","Beef Tacos"));
         // Add some sample items.
         //  for (int i = 1; i <= COUNT; i++) {
         //     addItem(createDummyItem(i));

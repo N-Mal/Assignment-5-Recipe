@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Assignment-5-Recipe</string>
-    <string name="title_item_detail">Item Detail</string>
+    <string name="title_item_detail">Recipe App</string>
+    <string name="txtPizza">Simple, yet delicious, cheese pizza</string>
+    <string name="txtChocoCake">An all chocolate cake that is sure to satisfy your sweet tooth</string>
+    <string name="txtTacos">Beef tacos with toppings that are asy to make for a whole party</string>
+    <string name="txtTitle">Recipe App</string>
+    <string name="txtInfo">An app designed to take you through the ingredients and process to make delicious food</string>
+    <string name="txtDescription">Recipe App Image</string>
 </resources>
